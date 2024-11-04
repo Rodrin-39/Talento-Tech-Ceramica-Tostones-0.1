@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Chilanka&family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Playwrite+DE+Grund:wght@100..400&display=swap');
+
+/* font-family: "Playwrite DE Grund", cursive;
+  font-family: "Comic Neue", cursive;
+  font-family: "Chilanka", cursive;
+  */
+*{
+    font-family: "Comic Neue", cursive;;
+
+}
+
+h1{
+    font-family: "Playwrite DE Grund", cursive;
+    font-size: 3rem;
+    text-align: center;
+}
+
+h2, h3, h4{
+    font-family: "Playwrite DE Grund", cursive;
+    text-align: center;
+    font-size: 1.5rem;
+
+}
+
+
+
+
+body{
+    background-image: linear-gradient(to bottom, #c4b2ae, #ab9c98, #948683, #7c716e, #665d5a, #665d5a, #665d5a, #665d5a, #7c716e, #948683, #ab9c98, #c4b2ae);
+    color: white;
+}
+
+
+.header{
+    .logo{
+        width:150px;
+    }
+    ul{
+        list-style: none;
+        font-size: 16px;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+
+}
+
+
+.seccionPersonalizadasIndex{
+    background-image: url("../assets/img/gatos\ 1920.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    height:40vh;
+    .personalizadasIndex{
+        font-family: "Chilanka", cursive;
+        font-size: 4rem;
+        font-style: bold;   
+    }
+}
+
+.nuestrosProductos{
+    img{
+        width: 40%;
+    }
+}
+
+.seccionClientesIndex{
+    background-image: url("../assets/img/fondo\ b\ 1920.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height:30vh;
+    .contenedorClientesIndex{
+        backdrop-filter: blur(7px);
+        p{
+            font-size: 1.5rem;
+            text-align: center;  
+        }
+
+    }
+}
+
+.seccionNosotros{
+    background-image: url("../assets/img/fondo1920.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height:50vh;
+    color: rgb(255, 255, 255);
+    .contenedorNosotros{
+        backdrop-filter: blur(5px);
+        p{
+            font-size: 1.5rem;
+            text-align: center;  
+        }
+        ul{
+            list-style: none;
+        }
+    
+        a{
+            text-decoration: none;
+            color: #ffffff;
+        }
+    }
+}
+
+.headerContacto{
+    width: 100%;
+    height: 20vh;
+    .logo{
+        width:150px;
+    }
+    ul{
+        list-style: none;
+        font-size: 16px;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+
+}
+
+.headerIngreso{
+    width: 100%;
+    height: 20vh;
+    .logo{
+        width:150px;
+    }
+    ul{
+        list-style: none;
+        font-size: 16px;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+
+}
+
+
+.mainContacto{
+    width: 100%;
+    height: 60vh;
+
+}
+
+.mainIngreso{
+    width: 100%;
+    height: 60vh;
+    background-image: url("../assets/img/estudio\ 1920.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: rgb(255, 255, 255);
+}
+
+.footerContacto{
+    width: 100%;
+    height: 20vh;
+}
+
+.footerIngreso{
+    width: 100%;
+    height: 20vh;
+    .logo{
+        width:150px;
+    }
+    ul{
+        list-style: none;
+        font-size: 16px;
+    }
+
+    a{
+        text-decoration: none;
+        color: #ffffff;
+    }
+    .fa-whatsapp{
+        color: rgb(2, 159, 2);
+        font-size: 40px;
+    }
+    .fa-instagram{
+        color: rgb(241, 25, 158);
+        font-size: 40px;
+    }
+    p{
+        font-size: 0.8em;
+    }
+}
+
+.footer{
+    .logo{
+        width:150px;
+    }
+    ul{
+        list-style: none;
+        font-size: 16px;
+    }
+
+    a{
+        text-decoration: none;
+        color: #ffffff;
+    }
+    .fa-whatsapp{
+        color: rgb(2, 159, 2);
+        font-size: 40px;
+    }
+    .fa-instagram{
+        color: rgb(241, 25, 158);
+        font-size: 40px;
+    }
+    p{
+        font-size: 0.8em;
+    }
+}
